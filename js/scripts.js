@@ -15,7 +15,7 @@
          //reset: true //Animation repeat
       })
       sr.reveal(`.page-block__sudtitle, .page-block__title, .page-block__text, .enjoy-block__title, .enjoy-block__text`);
-      sr.reveal(`.header-block__button, .subscribe__block, .footer-block`, {origin: 'bottom'});
+      sr.reveal(`.header-block__button`, {origin: 'bottom'});
       sr.reveal(`.discover-block__info, .skills__data, .chance-block-content`, {origin: 'left'});
       sr.reveal(`.discover-bloc__images, .different-block__title-block, .chance-block-images`, {origin: 'right'});
       sr.reveal(`.card, .different-block__cards`, {interval: 100});
